@@ -11,6 +11,9 @@ header {
     padding: 20px;
     background-color: #2b7e4e;
     color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 30px solid #575252;
 }
 
 h1 {
@@ -28,22 +31,14 @@ nav {
 
 li {
     list-style-type: none;
-    display: inline;
-    margin-left: 25px;   
+    display: inline-block;
+    margin-right: 50px;   
 }
 
 a {
     color: white;
     font-size: 30px;
     text-decoration: none;
-}
-
-.lower-border {
-    position: sticky;
-    top: 144px;
-    z-index: 2;
-    background-color: #575252;
-    padding: 20px;
 }
 
 img {
@@ -69,7 +64,6 @@ p {
     margin-right: 200px;
 }
 
-
 #contact-form {
     height: 700px;
     margin-top: 40px;
@@ -89,4 +83,11 @@ footer {
     height: 100px;
     width: auto;
     background-color: #2b7e4e;
+}
+
+h3 {
+    margin: 0;
+    padding: 35px;
+    text-align: center;
+    color: white;
 }
